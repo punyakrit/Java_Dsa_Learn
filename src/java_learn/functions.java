@@ -64,18 +64,36 @@ import java.util.Scanner;
 
 
 // string input into function
-public class functions{
-    public static void main(String[] args) {
+//public class functions{
+//    public static void main(String[] args) {
+//
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("Enter your name: ");
+//        String name = input.next();
+//        String message = greet(name);
+//        System.out.println(message);
+//    }
+//
+//    static String greet(String name) {
+//        String message = "hello " + name;
+//        return message;
+//    }
+//}
 
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter your name: ");
-        String name = input.next();
-        String message = greet(name);
-        System.out.println(message);
-    }
 
-    static String greet(String name) {
-        String message = "hello " + name;
-        return message;
-    }
-}
+
+//            shadowing
+//public class functions{
+//    int x = 100;
+//    public static void main(String[] args) {
+//        System.out.println(x);
+//        int x;
+//        x = 50;
+//        System.out.println(x);
+//        fun();
+//    }
+//
+//    static void fun() {
+//        System.out.println(x);
+//    }
+//}

@@ -14,3 +14,7 @@ public class passing_in_functions {
         arr[0] = 99;
     }
 }
+
+//output
+//[0,1,2,3,4,5,6,7]
+//[99,1,2,3,4,5,6,7]

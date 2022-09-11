@@ -22,7 +22,7 @@ public class multi_dimentional_array {
                 {4, 5, 6},
                 {7, 8, 9}
         };
-        System.out.println(Arrays.toString(arr));
+
 
     }
 }
